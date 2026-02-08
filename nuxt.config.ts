@@ -16,6 +16,6 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'percel'
+    preset: 'vercel'
   }
 })
