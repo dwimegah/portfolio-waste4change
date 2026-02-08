@@ -3,12 +3,12 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n'
   ],
-  css: ['../assets/css/main.css'],
+  css: ['~/assets/css/main.css'],
 
   i18n: {
     strategy: 'prefix',
     defaultLocale: 'id',
-    langDir: '../locales/',
+    langDir: 'locales/',
     locales: [
       { code: 'id', file: 'id.json' },
       { code: 'en', file: 'en.json' }
