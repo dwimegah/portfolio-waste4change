@@ -3,6 +3,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n'
   ],
+  css: ['../assets/css/main.css'],
 
   i18n: {
     strategy: 'prefix',
@@ -12,5 +13,9 @@ export default defineNuxtConfig({
       { code: 'id', file: 'id.json' },
       { code: 'en', file: 'en.json' }
     ]
+  },
+
+  nitro: {
+    preset: 'netlify'
   }
 })
