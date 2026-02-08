@@ -52,16 +52,17 @@
 
       <!-- Heading -->
       <h1
-        class="font-bold leading-tight
-               text-3xl sm:text-4xl lg:text-5xl
-               max-w-3xl"
+        class="font-heading font-bold
+         text-3xl sm:text-4xl lg:text-5xl max-w-3xl
+         leading-tight
+         text-white"
       >
         {{t('solusi')}}
       </h1>
 
       <!-- Description -->
       <p
-        class="mt-4 max-w-2xl
+        class="font-body mt-4 max-w-2xl
                text-white/90
                text-base sm:text-lg"
       >
@@ -73,10 +74,10 @@
         to="/contact"
         class="inline-flex items-center
                 mt-6 px-6 py-3
-                bg-sky-500 hover:bg-sky-600
+                bg-brand hover:bg-brand
                 text-white text-sm font-semibold
                 rounded-full
-                shadow-md shadow-sky-500/30
+                shadow-md shadow-brand/30
                 transition-all duration-200
                 hover:-translate-y-0.5"
       >
@@ -96,7 +97,7 @@
         <h2
           id="business-help-heading"
           class="text-xl sm:text-2xl
-                 font-semibold tracking-wide
+                 font-title font-semibold tracking-wide
                  text-slate-800 uppercase"
         >
           {{t('bantu')}}
@@ -104,14 +105,14 @@
 
         <!-- Decorative Divider -->
         <div
-          class="w-20 h-1 bg-sky-500 mx-auto my-4"
+          class="w-20 h-1 bg-brand mx-auto my-4"
           aria-hidden="true"
         ></div>
 
         <p class="text-slate-500 text-sm sm:text-base">
           {{t('layanan')}}
         </p>
-        <p><b>Consult, Campaign, Collect, Create.</b></p>
+        <p class="font-body"><b>Consult, Campaign, Collect, Create.</b></p>
       </header>
 
       <!-- Cards Grid -->

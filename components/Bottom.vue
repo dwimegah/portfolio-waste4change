@@ -1,7 +1,7 @@
 <template>
   <div
     class="relative bg-gradient-to-r
-           from-sky-500 via-teal-500 to-green-400
+           from-brand via-teal-500 to-green-400
            text-white"
     aria-labelledby="footer-heading"
   >

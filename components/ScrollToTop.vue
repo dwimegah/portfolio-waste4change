@@ -9,11 +9,11 @@
            shadow-lg
            flex items-center justify-center
            transition-all duration-300
-           hover:bg-sky-50"
+           hover:bg-brand"
   >
     <!-- Scroll Icon -->
     <svg
-      class="w-6 h-6 text-sky-600"
+      class="w-6 h-6 text-brand"
       viewBox="0 0 24 24"
       fill="none"
       aria-hidden="true"

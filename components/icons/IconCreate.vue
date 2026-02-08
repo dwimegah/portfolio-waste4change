@@ -11,7 +11,7 @@
         cx="32"
         cy="32"
         r="30"
-        stroke="#2BB0E6"
+        stroke="currentColor"
         stroke-width="2"
     />
 
@@ -22,14 +22,14 @@
         width="28"
         height="16"
         rx="2"
-        stroke="#2BB0E6"
+        stroke="currentColor"
         stroke-width="2"
     />
 
     <!-- Box top line -->
     <path
         d="M18 26l6-6h16l6 6"
-        stroke="#2BB0E6"
+        stroke="currentColor"
         stroke-width="2"
         stroke-linejoin="round"
     />
@@ -39,14 +39,14 @@
         cx="44"
         cy="22"
         r="5"
-        stroke="#2BB0E6"
+        stroke="currentColor"
         stroke-width="2"
     />
 
     <!-- Plus sign -->
     <path
         d="M44 19v6M41 22h6"
-        stroke="#2BB0E6"
+        stroke="currentColor"
         stroke-width="2"
         stroke-linecap="round"
     />

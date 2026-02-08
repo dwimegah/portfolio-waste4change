@@ -11,24 +11,24 @@
             cx="32"
             cy="32"
             r="30"
-            stroke="#2BB0E6"
+            stroke="currentColor"
             stroke-width="2"
         />
 
         <!-- Left person -->
-        <circle cx="24" cy="24" r="4" fill="#2BB0E6" />
+        <circle cx="24" cy="24" r="4" fill="currentColor" />
         <path
             d="M18 38c0-4 3-7 6-7s6 3 6 7"
-            stroke="#2BB0E6"
+            stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
         />
 
         <!-- Right person -->
-        <circle cx="40" cy="24" r="4" fill="#2BB0E6" />
+        <circle cx="40" cy="24" r="4" fill="currentColor" />
         <path
             d="M34 38c0-4 3-7 6-7s6 3 6 7"
-            stroke="#2BB0E6"
+            stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
         />

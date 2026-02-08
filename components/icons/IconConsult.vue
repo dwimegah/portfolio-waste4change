@@ -1,13 +1,14 @@
 <template>    
-    <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
-    class="w-7 h-7 text-sky-400"
-    fill="none"
-    stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+   <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 64 64"
+      class="w-6 h-6
+             text-brand
+             transition-colors duration-300
+             group-hover:text-brand""
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
     >
     <!-- Person left -->
     <circle cx="20" cy="18" r="4" />

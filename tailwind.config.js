@@ -6,7 +6,16 @@ export default {
     "./app.vue"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: '#1C9DBD'
+      }
+    },
+    fontFamily: {
+      heading: ['Asap', 'sans-serif'],
+      body: ['"Open Sans"', 'sans-serif'],
+      title: ['Nunito', 'sans-serif']
+    }
   },
   plugins: [],
 }

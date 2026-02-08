@@ -9,7 +9,7 @@
              transition-all duration-300
              flex flex-col justify-between
 
-             hover:bg-sky-500
+             hover:bg-brand
              hover:shadow-lg"
     >
       <!-- Content -->
@@ -17,31 +17,28 @@
         <!-- Icon -->
         <div
           class="w-12 h-12 rounded-full
-                 border border-sky-500
-                 text-sky-500
-                 flex items-center justify-center mb-6
-                 transition-colors duration-300
-
-                 group-hover:border-white
-                 group-hover:text-white"
-          aria-hidden="true"
+                flex items-center justify-center
+                bg-slate-50
+                border border-brand
+                transition-all duration-300
+                group-hover:bg-white
+                group-hover:scale-110"
         >
             <component
             :is="icon"
             class="w-7 h-7
-                    text-sky-400
-                    group-hover:text-white
-                    transition"
+              text-[#1C9DBD]
+              transition-colors duration-300
+              group-hover:text-brand"
             />
         </div>
 
         <!-- Title -->
         <h3
-          class="text-lg font-semibold
+          class="text-lg font-title font-semibold
                  text-slate-800
                  mb-3
                  transition-colors duration-300
-
                  group-hover:text-white"
         >
           {{ title }}
@@ -49,7 +46,7 @@
 
         <!-- Description -->
         <p
-          class="text-sm leading-relaxed
+          class="text-sm font-body leading-relaxed
                  text-slate-500
                  transition-colors duration-300
 
@@ -64,7 +61,7 @@
         :to="link"
         class="mt-8 inline-flex items-center
                text-sm font-semibold
-               text-sky-600
+               text-brand
                transition-colors duration-300
 
                group-hover:text-white"

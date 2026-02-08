@@ -5,7 +5,7 @@
       @click.stop="toggle"
       class="flex items-center gap-1
              text-sm font-semibold uppercase
-             text-slate-700 hover:text-sky-600
+             text-slate-700 hover:text-brand
              transition"
       :aria-expanded="open"
     >
