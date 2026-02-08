@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="w-full
+    class="w-full font-body
            bg-gradient-to-r
            from-teal-600
            via-teal-500

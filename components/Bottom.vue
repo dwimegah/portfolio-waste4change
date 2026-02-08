@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative bg-gradient-to-r
+    class="font-body relative bg-gradient-to-r
            from-brand via-teal-500 to-green-400
            text-white"
     aria-labelledby="footer-heading"
